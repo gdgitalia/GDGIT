@@ -16,7 +16,10 @@
    id="svg4192"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logos.svg">
+   sodipodi:docname="logos.svg"
+   inkscape:export-filename="C:\Users\Gianni\mygit\gdgIT\img\sprites\logos.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4194">
     <filter
@@ -645,9 +648,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="100.12219"
-     inkscape:cy="90.731932"
+     inkscape:zoom="2.8"
+     inkscape:cx="-62.504221"
+     inkscape:cy="85.063799"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -836,9 +839,9 @@
        y="234.1386"
        x="370.297"
        id="title-31"
-       style="font-weight:600;font-size:46px;font-family:'Open Sans';fill:#4d4d4d;filter:url(#filter4124);fill-opacity:1;"
+       style="font-weight:600;font-size:46px;font-family:'Open Sans';fill:#4d4d4d;fill-opacity:1;filter:url(#filter4124)"
        editable="simple"
-       transform="matrix(0.60640678,0,0,0.68481232,74.58598,57.888944)">Italy</text>
+       transform="matrix(0.60640678,0,0,0.68481232,68.58598,57.888944)">Italia</text>
     <g
        transform="matrix(0.60640678,0,0,0.68481232,126.84424,-63.9515)"
        id="GDG-3"
@@ -1008,9 +1011,9 @@
        y="309.85287"
        x="369.16431"
        id="title-31-1"
-       style="font-weight:600;font-size:46px;font-family:'Open Sans';fill:#4d4d4d;filter:url(#filter4124-1);fill-opacity:1;"
+       style="font-weight:600;font-size:46px;font-family:'Open Sans';fill:#4d4d4d;fill-opacity:1;filter:url(#filter4124-1)"
        editable="simple"
-       transform="matrix(0.60640678,0,0,0.68481232,74.58598,64.960012)">Italy</text>
+       transform="matrix(0.60640678,0,0,0.68481232,68.58598,64.960012)">Italia</text>
     <g
        transform="matrix(0.60640678,0,0,0.68481232,126.15736,-5.0303612)"
        id="GDG-3-8"
@@ -1174,9 +1177,9 @@
        y="234.1386"
        x="370.297"
        id="title-31-7"
-       style="font-weight:600;font-size:46px;font-family:'Open Sans';fill:#b2b2b2;filter:url(#filter4124-0);fill-opacity:1;"
+       style="font-weight:600;font-size:46px;font-family:'Open Sans';fill:#b2b2b2;fill-opacity:1;filter:url(#filter4124-0)"
        editable="simple"
-       transform="matrix(0.60640678,0,0,0.68481232,73.941583,172.78694)">Italy</text>
+       transform="matrix(0.60640678,0,0,0.68481232,67.941583,172.78694)">Italia</text>
     <g
        transform="matrix(0.60640678,0,0,0.68481232,126.19984,50.946499)"
        id="GDG-3-7"
