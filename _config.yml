@@ -19,7 +19,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "GDG Italia"
 email: "gdgItalia@email.com"
 description: "Google Developer Group Italia"
-baseurl: "/"
+baseurl: "/gdgIT"
 url: "http://giangraziano.altervista.org"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
@@ -32,7 +32,7 @@ organizerAlternateName: "Google Developer Group Italia"
 organizerDescription: "Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; it can take many forms -- from just a few people getting together to watch our latest video, to large gatherings with demos and tech talks, to events like code sprints and hackathons. "
 organizerEmail: "none@none.it"
 organizerLogo: "/img/seo/GDGitaly-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://gdgitalia.org/"
 
 # Head
 metaKeywords: "events, gdg, google, programming, android, chrome, developers, italy, Go"
@@ -64,9 +64,9 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
-subtitle: "GDG Italia"
-typeoutTextValues: '"Torino","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Pisa","Firenze","ReggioCalabia","Romaab","Trento","Ancona","Brescia","Genova","Srdegna","Venezia","Bologna","Camerino","Udine","Parma","Pergia","Pescara"'
-typeoutFallback: "Italia"
+maintitle: "GDG Italia"
+typeoutTextValues: '"Torino","Pisa","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
+typeoutFallback: ""
 heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 #- {permalink: "/#tickets", text: "Buy tickets"}
