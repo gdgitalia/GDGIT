@@ -63,7 +63,7 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "nice.jpg"
-heroTitle: ": <typeout>"
+heroTitle: "GDG <typeout>"
 maintitle: "GDG Italia"
 typeoutTextValues: '"Torino","Pisa","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
 typeoutFallback: ""
