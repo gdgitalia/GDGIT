@@ -1,30 +1,36 @@
 <!-- Begin Hero Section -->
 <section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
     {% include navigation.html %}
-    <div class="content-wrapper">
-    <div class="jumbotron">
-        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-            {% assign heroText = site.heroTitle | split:"<typeout>" %}
+    <div class="content-wrapper container">
+        <div class="jumbotron">
+            <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+                {% assign heroText = site.heroTitle | split:"<typeout>" %}
 
-            <h1>{{ site.maintitle }}</h1>
+                <h1>{{ site.maintitle }}{{ heroText[0] }}
+                    <span id="typeout-text" class="hidden-xs"></span>
+                    <span class="typeout-fallback">{{ site.typeoutFallback }}</span>
+                    {{ heroText[1] }}
 
-            <p>
-            {{ heroText[0] }}
-            <span id="typeout-text" class="hidden-xs"></span>
-            <span class="typeout-fallback">{{ site.typeoutFallback }}</span>
-            {{ heroText[1] }}
-            </p>
-            
-  
-           
+                </h1>
 
-        </div>
-    </div>
-    <a href="#about" class="explore">
+                <p>
+                    Google Developer Groups are independent communities spread over the world formed by people interested in technology who love to share their experiences and knowledge.
+                </p>
+                <p>
+                    24 italian cities are part of GDG Italy, if you want be part of it, just find your closest GDG.
+                </p>
+           </div>
+
+
+
+       </div>
+
+
+       <a href="#about" class="explore">
         <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
             <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
         </svg>
     </a>
-    </div>
+</div>
 </section>
 <!-- End Hero Section -->
