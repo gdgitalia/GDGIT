@@ -85,7 +85,7 @@ statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "5000", specialCharacter: "+", info: "attendees", detail: "in Last 6 Months"}
  - {count: "50", specialCharacter: "+", info: "Events", detail: "in Last 6 Months"}
- - {count: "26", specialCharacter: "", info: "GDGs", detail: "spread over Italy"}
+ - {count: "24", specialCharacter: "", info: "GDGs", detail: "spread over Italy"}
  #- {count: "1", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
