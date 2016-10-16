@@ -20,11 +20,11 @@ title: "GDG Italia"
 email: "gdgItalia@email.com"
 description: "Google Developer Group Italia"
 baseurl: "/gdgIT"
-url: "http://giangraziano.altervista.org"
+url: "https://gdgitalia.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
-#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "GDG Italy"
@@ -57,14 +57,14 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://developers.google.com/groups/directory/", text: "Find nearest GDG"}
+ - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
 rightNavigationButtons:
- - {link: "https://developers.google.com/groups/directory/", text: "Find nearest GDG"}
+ - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
 
 # Hero Block
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
-maintitle: "GDG Italia"
+maintitle: "Google Developer Group Italy"
 typeoutTextValues: '"Torino","Pisa","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
 typeoutFallback: ""
 heroButtons:
@@ -73,18 +73,19 @@ heroButtons:
 
 # About Block
 aboutTitle: "About GDG Italia"
+aboutDescription: "Google Developer Groups are independent communities spread over the world formed by people interested in technology who love to share their experiences and knowledge. 24 italian cities are part of GDG Italy, if you want be part of it, just find your closest GDG."
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
  - {title: "Workshops", image: "workshop.jpg", text: "Hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
  - {title: "Talks", image: "talks.JPG", text: "Talks coool oh yeah blablabla!" }
- - {title: "Community", image: "community.JPG", text: "Find your nearest community and join to GDG Italy" }
+ - {title: "Community", image: "community.JPG", text: "Find your closest community and join to GDG Italy" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "5000", specialCharacter: "+", info: "attendees", detail: "in Last 6 Months"}
  - {count: "50", specialCharacter: "+", info: "Events", detail: "in Last 6 Months"}
- - {count: "26", specialCharacter: "", info: "GDGs", detail: "spread over Italy"}
+ - {count: "24", specialCharacter: "", info: "GDGs", detail: "spread over Italy"}
  #- {count: "1", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
