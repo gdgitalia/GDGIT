@@ -20,7 +20,7 @@ title: "GDG Italia"
 email: "gdgItalia@email.com"
 description: "Google Developer Group Italia"
 baseurl: "/gdgIT"
-url: "http://giangraziano.altervista.org"
+url: "https://giannigm.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
@@ -57,9 +57,9 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://developers.google.com/groups/directory/", text: "Find nearest GDG"}
+ - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
 rightNavigationButtons:
- - {link: "https://developers.google.com/groups/directory/", text: "Find nearest GDG"}
+ - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
 
 # Hero Block
 heroImage: "nice.jpg"
@@ -78,7 +78,7 @@ aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
  - {title: "Workshops", image: "workshop.jpg", text: "Hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
  - {title: "Talks", image: "talks.JPG", text: "Talks coool oh yeah blablabla!" }
- - {title: "Community", image: "community.JPG", text: "Find your nearest community and join to GDG Italy" }
+ - {title: "Community", image: "community.JPG", text: "Find your closest community and join to GDG Italy" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
