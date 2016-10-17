@@ -1,0 +1,245 @@
+- 
+  id: 0
+  name:     "Pisa"
+  logoUrl:  "pisa.png"
+  slug:     "gdg-pisa"
+  website:  "http://www.google.com"
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/105020119999752987442"}
+    - {name: "twitter",     link: "https://twitter.com/gdgpisa"}
+    - {name: "github",      link: "https://github.com/gdgpisa"}
+    - {name: "facebook",    link: "http://http://facebook.com/gdgpisa/"}
+- 
+  id: 1
+  name:     "Catania"
+  logoUrl:  "catania.png"
+  slug:     "gdg-catania"
+  website:  "http://www.google.com"
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+    - {name: "github",      link: "https://github.com/ozasadnyy"}
+- 
+  id: 2
+  name:     "Campania"
+  logoUrl:  "campania.png"
+  slug:     "gdg-campania"
+  website:  "http://www.google.com"
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+- 
+  id: 3
+  name:     "Torino"
+  logoUrl:  "torino.png"
+  slug:     "gdg-torino"
+  website:  "http://www.google.com"
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+- 
+  id: 5
+  name:     "Bari"
+  logoUrl:  "bari.png"
+  slug:     "gdg-bari"
+  website:  "http://www.google.com"
+  social: 
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 6
+  name:     "Palermo"
+  logoUrl:  "palermo.png"
+  slug:     "gdg-palermo"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 7
+  name:     "Cosenza"
+  logoUrl:  "cosenza.png"
+  slug:     "gdg-cosenza"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 8
+  name:     "Gela"
+  logoUrl:  "gela.png"
+  slug:     "gdg-gela"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 9
+  name:     "Trento"
+  logoUrl:  "trento.png"
+  slug:     "gdg-trento"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 10
+  name:     "Milano"
+  logoUrl:  "milano.png"
+  slug:     "gdg-milano"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 11
+  name:     "Nebrodi"
+  logoUrl:  "nebrodi.png"
+  slug:     "gdg-nebrodi"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 12
+  name:     "Reggio Calabria"
+  logoUrl:  "reggio-calabria.png"
+  slug:     "gdg-reggio-calabria"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 13
+  name:     "Roma Lab"
+  logoUrl:  "roma.png"
+  slug:     "gdg-roma"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 14
+  name:     "Sardegna"
+  logoUrl:  "sardegna.png"
+  slug:     "gdg-sardegna"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 15
+  name:     "Venezia"
+  logoUrl:  "venezia.png"
+  slug:     "gdg-venezia"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 16
+  name:     "Bologna"
+  logoUrl:  "bologna.png"
+  slug:     "gdg-bologna"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 17
+  name:     "Brescia"
+  logoUrl:  "brescia.png"
+  slug:     "gdg-brescia"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 18
+  name:     "Camerino"
+  logoUrl:  "camerino.png"
+  slug:     "gdg-camerino"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 19
+  name:     "Firenze"
+  logoUrl:  "firenze.png"
+  slug:     "gdg-firenze"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 20
+  name:     "Genova"
+  logoUrl:  "genova.png"
+  slug:     "gdg-genova"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 21
+  name:     "Reggio Emilia"
+  logoUrl:  "reggio-emilia.png"
+  slug:     "gdg-reggio-emilia"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 22
+  name:     "Ancona"
+  logoUrl:  "ancona.png"
+  slug:     "gdg-ancona"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 23
+  name:     "Udine"
+  logoUrl:  "udine.png"
+  slug:     "gdg-udine"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
+-
+  id: 24
+  name:     "Perugia"
+  logoUrl:  "perugia.png"
+  slug:     "gdg-perugia"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}

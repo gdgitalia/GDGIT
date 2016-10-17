@@ -1,0 +1,49 @@
+<!-- Begin Team List-->
+<section id="team" class="team">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">
+                    In questa pagina abbiamo raccolto i GDG Italiani, con le loro relative informazioni, tra cui i
+                    social ed il sito web.<br>
+                    Se riscontri errori o mancanze ti chiediamo di segnalarli al tuo Google Developers Group locale,
+                    provvederemo a risolvere il problema. <br>Grazie a tutti voi.<br><br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="row gdgrow">
+            {% for gdg in site.data.gdgs %}
+            <div class="col-sm-6 col-md-4 slug-{{ gdg.slug }}">
+                <div class="card">
+                    <div class="card-image">
+                        <span class="card-title">GDG {{ gdg.name }}</span>
+                        <img class="img-responsive" src="{{ site.baseurl | append: '/img/gdg-logos/' | append: gdg.logoUrl }}" alt="Logo GDG {{ gdg.name }}">
+                    </div>
+                    <div class="card-content">
+                        {% if gdg.website != null %}
+                        <p>
+                            <a href="{{ gdg.website }}" class="btn btn-primary" role="button" target="_blank">Visita il sito</a>
+                        </p>
+                        {% endif %}
+                    </div>
+
+                    <div class="card-action">
+                        {% for social in gdg.social %}
+                        <a href="{{ social["link"] }}" target="_blank">
+                            <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                            </svg>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>
+<!-- End Team List -->
