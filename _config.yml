@@ -50,16 +50,16 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 #TODO, SISTEMARE LA CARTELLA
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/news/", text: "News"}
- - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/events/", text: "Eventi"}
+# - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/GDGs/", text: "GDG's"}
 # - {permalink: "/team/", text: "Team"}
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
+ - {link: "https://developers.google.com/groups/directory/Italy", text: "Find your GDG"}
 rightNavigationButtons:
- - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
+ - {link: "https://developers.google.com/groups/directory/Italy", text: "Find your GDG"}
 
 # Hero Block
 heroImage: "nice.jpg"
@@ -140,7 +140,7 @@ footerBlocks:
    - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Segui i nostri eventi"
 blogCommentsEnabled: true
 discusShortName: "GDGItalia"
 
