@@ -18,11 +18,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "GDG Italia"
 email: "gdgItalia@email.com"
-<<<<<<< HEAD
-description: "Google Developer Group Italia"
-=======
 description: "Google Developer Group Italy:"
->>>>>>> refs/heads/pr/10
 baseurl: "/GDGIT"
 url: "http://giangraziano.altervista.org"
 permalink: "/blog/:title"
@@ -69,7 +65,7 @@ rightNavigationButtons:
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
 maintitle: "Google Developer Group Italy"
-typeoutTextValues: '"Torino","Pisa","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
+typeoutTextValues: '"Bari", "Brescia", "Campania", "Firenze", "Genova", "Milano", "Nebrodi", "Palermo", "Perugia", "Roma Lab", "Torino", "Trento", "Udine"'
 typeoutFallback: ""
 heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
