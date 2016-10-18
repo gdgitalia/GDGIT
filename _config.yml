@@ -18,7 +18,11 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "GDG Italia"
 email: "gdgItalia@email.com"
+<<<<<<< HEAD
 description: "Google Developer Group Italia"
+=======
+description: "Google Developer Group Italy:"
+>>>>>>> refs/heads/pr/10
 baseurl: "/GDGIT"
 url: "http://giangraziano.altervista.org"
 permalink: "/blog/:title"
@@ -57,14 +61,14 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://developers.google.com/groups/directory/", text: "Find nearest GDG"}
+ - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
 rightNavigationButtons:
- - {link: "https://developers.google.com/groups/directory/", text: "Find nearest GDG"}
+ - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
 
 # Hero Block
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
-maintitle: "GDG Italia"
+maintitle: "Google Developer Group Italy"
 typeoutTextValues: '"Torino","Pisa","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
 typeoutFallback: ""
 heroButtons:
@@ -73,6 +77,7 @@ heroButtons:
 
 # About Block
 aboutTitle: "About GDG Italia"
+aboutDescription: "Google Developer Groups are independent communities spread over the world formed by people interested in technology who love to share their experiences and knowledge. 24 italian cities are part of GDG Italy, if you want be part of it, just find your closest GDG."
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
  - {title: "Workshops", image: "workshop.jpg", text: "Hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
