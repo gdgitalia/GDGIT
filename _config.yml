@@ -18,13 +18,13 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "GDG Italia"
 email: "gdgItalia@email.com"
-description: "Google Developer Group Italy:"
-baseurl: "/GDGIT"
-url: "http://giangraziano.altervista.org"
+description: "Google Developer Group Italia"
+baseurl: "/gdgIT"
+url: "https://gdgitalia.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
-#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "GDG Italy"
@@ -50,22 +50,22 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 #TODO, SISTEMARE LA CARTELLA
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/news/", text: "News"}
- - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/events/", text: "Eventi"}
+# - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/GDGs/", text: "GDG's"}
 # - {permalink: "/team/", text: "Team"}
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
+ - {link: "https://developers.google.com/groups/directory/Italy", text: "Find your GDG"}
 rightNavigationButtons:
- - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
+ - {link: "https://developers.google.com/groups/directory/Italy", text: "Find your GDG"}
 
 # Hero Block
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
 maintitle: "Google Developer Group Italy"
-typeoutTextValues: '"Torino","Pisa","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
+typeoutTextValues: '"Torino","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milan","Nebrodi","Pisa","Firenze","ReggioCalabia","Romaab","Trento","Ancona","Brescia","Genova","Srdegna","Venezia","Bologna","Camerino","Udine","Parma","Pergia","Pescara"'
 typeoutFallback: ""
 heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
@@ -78,14 +78,14 @@ aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
  - {title: "Workshops", image: "workshop.jpg", text: "Hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
  - {title: "Talks", image: "talks.JPG", text: "Talks coool oh yeah blablabla!" }
- - {title: "Community", image: "community.JPG", text: "Find your nearest community and join to GDG Italy" }
+ - {title: "Community", image: "community.JPG", text: "Find your closest community and join to GDG Italy" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "5000", specialCharacter: "+", info: "attendees", detail: "in Last 6 Months"}
  - {count: "50", specialCharacter: "+", info: "Events", detail: "in Last 6 Months"}
- - {count: "26", specialCharacter: "", info: "GDGs", detail: "spread over Italy"}
+ - {count: "24", specialCharacter: "", info: "GDGs", detail: "spread over Italy"}
  #- {count: "1", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
@@ -140,7 +140,7 @@ footerBlocks:
    - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Segui i nostri eventi"
 blogCommentsEnabled: true
 discusShortName: "GDGItalia"
 
