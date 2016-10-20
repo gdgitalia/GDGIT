@@ -65,7 +65,7 @@ rightNavigationButtons:
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
 maintitle: "Google Developer Group Italy"
-typeoutTextValues: '"Torino","Pisa","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
+typeoutTextValues: '"Torino","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milan","Nebrodi","Pisa","Firenze","ReggioCalabia","Romaab","Trento","Ancona","Brescia","Genova","Srdegna","Venezia","Bologna","Camerino","Udine","Parma","Pergia","Pescara"'
 typeoutFallback: ""
 heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
