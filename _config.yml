@@ -18,15 +18,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "GDG Italia"
 email: "gdgItalia@email.com"
-<<<<<<< HEAD
 description: "Google Developer Group Italia"
 baseurl: "/gdgIT"
 url: "https://gdgitalia.github.io"
-=======
-description: "Google Developer Group Italy:"
-baseurl: "/GDGIT"
-url: "http://giangraziano.altervista.org"
->>>>>>> gdg-italia/master
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
@@ -63,25 +57,15 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
-<<<<<<< HEAD
- - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
-rightNavigationButtons:
- - {link: "https://developers.google.com/groups/directory/", text: "Find your GDG"}
-=======
  - {link: "https://developers.google.com/groups/directory/Italy", text: "Find your GDG"}
 rightNavigationButtons:
  - {link: "https://developers.google.com/groups/directory/Italy", text: "Find your GDG"}
->>>>>>> gdg-italia/master
 
 # Hero Block
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
 maintitle: "Google Developer Group Italy"
-<<<<<<< HEAD
 typeoutTextValues: '"Torino","Pisa","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milano","Nebrodi","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
-=======
-typeoutTextValues: '"Bari", "Brescia", "Campania", "Firenze", "Genova", "Milano", "Nebrodi", "Palermo", "Perugia", "Roma Lab", "Torino", "Trento", "Udine"'
->>>>>>> gdg-italia/master
 typeoutFallback: ""
 heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
