@@ -72,7 +72,7 @@ heroButtons:
 #- {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "I Gooogle Developer Groups sono gruppi indipendenti sparsi in tutto il mondo composti da persone interessate nella tecnologia che amano condividere le loro esperienze e conoscenze."
+aboutTitle: "I Gooogle Developer Groups sono gruppi indipendenti sparsi in tutto il mondo composti da persone interessate di tecnologia che amano condividere le loro esperienze e conoscenze."
 aboutDescription: "In italia sono presenti 24 GDG, se vuoi farne parte ti basta cercare il GDG più vicino a te."
 aboutBlock:
  - {title: "Eventi Google", image: "conference.jpg", text: "Gli eventi Google più importanti organizzati per te dai GDG! Tanti speakers e tanto divertimento!" }
