@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="logos.svg"
-   inkscape:export-filename="C:\Users\Gianni\mygit\gdgIT\img\sprites\logos.png"
+   inkscape:export-filename="C:\Users\Gianni Modica\mygit\GDGIT\img\sprites\logos.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -418,7 +418,7 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Invert"
+       inkscape:label="Colorize"
        id="filter4124-0">
       <feColorMatrix
          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.21 -0.72 -0.07 2 0 "
@@ -522,8 +522,56 @@
       <feColorMatrix
          id="feColorMatrix3943"
          values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
-         result="color2"
+         result="fbSourceGraphic"
          in="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3568" />
+      <feComposite
+         id="feComposite3570"
+         in2="fbSourceGraphic"
+         operator="arithmetic"
+         k1="0"
+         k2="0.2"
+         result="composite1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix3572"
+         in="composite1"
+         values="1"
+         type="saturate"
+         result="colormatrix1" />
+      <feFlood
+         id="feFlood3574"
+         flood-opacity="1"
+         flood-color="rgb(255,255,255)"
+         result="flood1" />
+      <feBlend
+         id="feBlend3576"
+         in2="colormatrix1"
+         in="flood1"
+         mode="multiply"
+         result="blend1" />
+      <feBlend
+         id="feBlend3578"
+         in2="blend1"
+         mode="screen"
+         result="blend2" />
+      <feColorMatrix
+         id="feColorMatrix3580"
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2" />
+      <feComposite
+         id="feComposite3582"
+         in2="fbSourceGraphic"
+         in="colormatrix2"
+         operator="in"
+         k2="1"
+         result="composite2" />
     </filter>
     <radialGradient
        id="SVGID_1_-5-5"
@@ -640,6 +688,53 @@
          result="color2"
          id="feColorMatrix3903" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Colorize"
+       id="filter3584">
+      <feComposite
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="0"
+         k2="0.2"
+         result="composite1"
+         id="feComposite3586" />
+      <feColorMatrix
+         in="composite1"
+         values="1"
+         type="saturate"
+         result="colormatrix1"
+         id="feColorMatrix3588" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(255,255,255)"
+         result="flood1"
+         id="feFlood3590" />
+      <feBlend
+         in="flood1"
+         in2="colormatrix1"
+         mode="multiply"
+         result="blend1"
+         id="feBlend3592" />
+      <feBlend
+         in2="blend1"
+         mode="screen"
+         result="blend2"
+         id="feBlend3594" />
+      <feColorMatrix
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2"
+         id="feColorMatrix3596" />
+      <feComposite
+         in="colormatrix2"
+         in2="SourceGraphic"
+         operator="in"
+         k2="1"
+         result="composite2"
+         id="feComposite3598" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -649,16 +744,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="-62.504221"
+     inkscape:cx="43.957497"
      inkscape:cy="85.063799"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1440"
-     inkscape:window-height="837"
-     inkscape:window-x="1358"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="769"
+     inkscape:window-height="413"
+     inkscape:window-x="1658"
+     inkscape:window-y="135"
+     inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-page="false"
@@ -691,7 +786,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1183,7 +1278,7 @@
     <g
        transform="matrix(0.60640678,0,0,0.68481232,126.19984,50.946499)"
        id="GDG-3-7"
-       style="fill:#4d4d4d">
+       style="fill:#4d4d4d;filter:url(#filter3584)">
       <g
          id="g138-3-2">
         <path
