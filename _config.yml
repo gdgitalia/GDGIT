@@ -19,7 +19,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "GDG Italia"
 email: "gdgItalia@email.com"
 description: "Google Developer Group Italia"
-baseurl: "/gdgIT"
+baseurl: "/GDGIT"
 url: "https://gdgitalia.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
