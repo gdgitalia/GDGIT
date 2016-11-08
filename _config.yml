@@ -18,25 +18,25 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "GDG Italia"
 email: "gdgItalia@email.com"
-description: "Google Developer Group Italy:"
-baseurl: "/GDGIT"
-url: "http://giangraziano.altervista.org"
+description: "Google Developer Group Italia"
+baseurl: "/gdgIT"
+url: "https://gdgitalia.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
-#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "GDG Italy"
 organizerAlternateName: "Google Developer Group Italia"
-organizerDescription: "Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; it can take many forms -- from just a few people getting together to watch our latest video, to large gatherings with demos and tech talks, to events like code sprints and hackathons. "
+organizerDescription: "I Google Developer Groups (GDG) sono gruppi di persone interessate alla tecnologia Google, possono assumere tante forme -- da gruppi di poche persone che si incontrano per parlare di tecnologia a grandi seminari, codelabs o hackatons"
 organizerEmail: "none@none.it"
 organizerLogo: "/img/seo/GDGitaly-logo.png"
 organizerLink: "http://gdgitalia.org/"
 
 # Head
-metaKeywords: "events, gdg, google, programming, android, chrome, developers, italy, Go"
-twitterAccount: "@gdgPisa"
+metaKeywords: "events, eventi, gdg, google, programming, programmazione, android, chrome, developers, sviluppatori, italy, italia"
+twitterAccount: "@gdgItalia"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -57,39 +57,39 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://developers.google.com/groups/directory/Italy", text: "Find your GDG"}
+ - {link: "https://developers.google.com/groups/directory/Italy", text: "Trova il tuo GDG"}
 rightNavigationButtons:
- - {link: "https://developers.google.com/groups/directory/Italy", text: "Find your GDG"}
+ - {link: "https://developers.google.com/groups/directory/Italy", text: "Trova il tuo GDG"}
 
 # Hero Block
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
-maintitle: "Google Developer Group Italy"
-typeoutTextValues: '"Bari", "Brescia", "Campania", "Firenze", "Genova", "Milano", "Nebrodi", "Palermo", "Perugia", "Roma Lab", "Torino", "Trento", "Udine"'
-typeoutFallback: ""
+maintitle: "Google Developer Group"
+typeoutTextValues: '"Torino","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milan","Nebrodi","Pisa","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
+typeoutFallback: "Italia"
 heroButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 #- {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG Italia"
-aboutDescription: "Google Developer Groups are independent communities spread over the world formed by people interested in technology who love to share their experiences and knowledge. 24 italian cities are part of GDG Italy, if you want be part of it, just find your closest GDG."
+aboutTitle: "I Gooogle Developer Groups sono gruppi indipendenti sparsi in tutto il mondo composti da persone interessate di tecnologia che amano condividere le loro esperienze e conoscenze."
+aboutDescription: "In italia sono presenti 24 GDG, se vuoi farne parte ti basta cercare il GDG più vicino a te."
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Talks", image: "talks.JPG", text: "Talks coool oh yeah blablabla!" }
- - {title: "Community", image: "community.JPG", text: "Find your nearest community and join to GDG Italy" }
+ - {title: "Eventi Google", image: "conference.jpg", text: "Gli eventi Google più importanti organizzati per te dai GDG! Tanti speakers e tanto divertimento!" }
+ - {title: "Workshops", image: "workshop.jpg", text: "Il modo migliore per fare esperienza si fa programmando, meglio se tutti assieme!" }
+ - {title: "Seminari", image: "talks.JPG", text: "Tanti seminari sulle tue tecnologie preferite!" }
+ - {title: "Community", image: "community.JPG", text: "Trova GDG più vicino a te!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "5000", specialCharacter: "+", info: "attendees", detail: "in Last 6 Months"}
- - {count: "50", specialCharacter: "+", info: "Events", detail: "in Last 6 Months"}
- - {count: "24", specialCharacter: "", info: "GDGs", detail: "spread over Italy"}
+ - {count: "5000", specialCharacter: "+", info: "partecipanti", detail: "negli ultimi 6 mesi"}
+ - {count: "50", specialCharacter: "+", info: "Eventi", detail: "negli ultimi 6 mesi"}
+ - {count: "24", specialCharacter: "", info: "GDG", detail: "in tutta italia"}
  #- {count: "1", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "News"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
@@ -105,16 +105,16 @@ twitterHashTag: "GDGItalia"
 twitterFeed: ""
 
 # Partners Block
-organizersTitle: "Organizers"
+organizersTitle: "Organizzatori"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+partnersC4sponsorsButton: "Diventa uno sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
+subscribeTitle: "Iscriviti per avere i nostri aggiornamenti"
 #TODO
 subscribeAction: ""
-subscribeInfo: "Register your mail for receive GDG Italy infos. Stay tuned!"
+subscribeInfo: "Registra la tua mail per ricevere informazioni da GDG Italia!"
 
 
 
@@ -148,6 +148,6 @@ discusShortName: "GDGItalia"
 showSessions: true
 
 # Team Block
-teamBlockTitle: "About us"
+teamBlockTitle: "Chi siamo"
 aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
 
