@@ -76,7 +76,7 @@ aboutBlock:
  - {title: "Eventi Google", image: "conference.jpg", text: "Gli eventi Google più importanti organizzati per te dai GDG! Tanti speakers e tanto divertimento!" }
  - {title: "Workshops", image: "workshop.jpg", text: "Il modo migliore per fare esperienza si fa programmando, meglio se tutti assieme!" }
  - {title: "Seminari", image: "talks.JPG", text: "Tanti seminari sulle tue tecnologie preferite!" }
- - {title: "Community", image: "community.JPG", text: "Trova GDG più vicino a te!" }
+ - {title: "Community", image: "community.JPG", text: "Trova il GDG più vicino a te!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -109,7 +109,7 @@ partnersC4sponsorsButton: "Diventa uno sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Iscriviti per avere i nostri aggiornamenti"
+subscribeTitle: "Iscriviti per ricevere i nostri aggiornamenti"
 #TODO
 subscribeAction: ""
 subscribeInfo: "Registra la tua mail per ricevere informazioni da GDG Italia!"
