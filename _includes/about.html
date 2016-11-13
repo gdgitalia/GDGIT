@@ -2,8 +2,15 @@
 <section id="about" class="about">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h4>{{ site.aboutTitle }}</h4>
-            <p>{{ site.aboutDescription}}</p>            
+
+            <div class="container-fluid">
+                <p id="aboutDescription">
+                    I <b>Gooogle Developer Groups</b> sono gruppi indipendenti sparsi in tutto il mondo composti da persone interessate di tecnologia che amano condividere le loro esperienze e conoscenze.
+                </p>
+                <p id="aboutDescription">
+                    In <b>italia</b> sono presenti <b>24 GDG</b>, se vuoi farne parte cerca il <b>GDG</b> più vicino a te!
+                </p>    
+            </div>
             <div class="row about-details">
                 {% assign animationDelay = 0 %}
                 {% for about in site.aboutBlock %}
