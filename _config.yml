@@ -50,7 +50,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 #TODO, SISTEMARE LA CARTELLA
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/events/", text: "Eventi"}
+#- {permalink: "/events/", text: "Eventi"}
 # - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/GDGs/", text: "GDG's"}
 # - {permalink: "/team/", text: "Team"}
@@ -68,7 +68,7 @@ maintitle: "Google Developer Group"
 typeoutTextValues: '"Torino","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milan","Nebrodi","Pisa","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
 typeoutFallback: "Italia"
 heroButtons:
-# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://developers.google.com/groups/directory/Italy", text: "Trova il tuo GDG"}
 #- {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
