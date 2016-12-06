@@ -2847,17 +2847,16 @@ time {
     padding: 0
 }
 .logo {
-    background-image: url("../img/sprites/logos.svg");
     background-repeat: no-repeat
 }
 .logo.logo-dark {
-    background-position: 0 -1px
+    background-image: url("../img/logo.svg");
 }
 .logo.logo-gray {
-    background-position: 0 -63px
+    background-image: url("../img/logo-grigio.svg");
 }
 .logo.logo-light {
-    background-position: 0 -127px
+    background-image: url("../img/logo-bianco.svg");
 }
 .icon {
     display: inline-block;
