@@ -2851,6 +2851,8 @@ time {
 }
 .logo.logo-dark {
     background-image: url("../img/logo.svg");
+    height: 50px;
+    margin-top: 5px;
 }
 .logo.logo-gray {
     background-image: url("../img/logo-grigio.svg");
