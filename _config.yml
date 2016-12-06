@@ -65,7 +65,7 @@ rightNavigationButtons:
 heroImage: "nice.jpg"
 heroTitle: "GDG <typeout>"
 maintitle: "Google Developer Group"
-typeoutTextValues: '"Torino","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milan","Nebrodi","Pisa","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara"'
+typeoutTextValues: '"Torino","Palermo","Campania","Catania","Gela","Bari","ReggioEmilia","Cosenza","Milan","Nebrodi","Pisa","Firenze","ReggioCalabia","Roma Lab","Trento","Ancona","Brescia","Genova","Sardegna","Venezia","Bologna","Camerino","Udine","Parma","Perugia","Pescara","Elimi"'
 typeoutFallback: "Italia"
 heroButtons:
  - {link: "https://developers.google.com/groups/directory/Italy", text: "Trova il tuo GDG"}

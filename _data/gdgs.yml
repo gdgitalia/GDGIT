@@ -243,3 +243,13 @@
     - {name: "google-plus", link: "https://google.com/"}
     - {name: "twitter",     link: "https://twitter.com/"}
     - {name: "github",      link: "https://github.com/"}
+-
+  id: 25
+  name:     "Elimi"
+  logoUrl:  "perugia.png"
+  slug:     "gdg-elimi"
+  website:  "http://www.google.com"
+  social:
+    - {name: "google-plus", link: "https://google.com/"}
+    - {name: "twitter",     link: "https://twitter.com/"}
+    - {name: "github",      link: "https://github.com/"}
