@@ -115,12 +115,8 @@ subscribeAction: ""
 subscribeInfo: "Registra la tua mail per ricevere informazioni da GDG Italia!"
 
 
-
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/109399456192014388090", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGItalia", icon: "twitter"}
- - {link: "https://facebook.com/GDGItalia", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
@@ -128,15 +124,8 @@ footerBlocks:
   links:
    - {link: "http://developersitalia.blogspot.it/", text: "Google Developers Italia"}
    - {link: "https://developers.google.com", text: "Google Developers"}
- -
-  title: "Contacts"
-  links:
-   - {link: "mailto:italy@gdg.mail.it", text: "italy@gdg.mail.it"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
-
+   - {link: "https://plus.google.com/109399456192014388090", text: "Google +"}
+ 
 # Blog
 blogTitle: "Segui i nostri eventi"
 blogCommentsEnabled: true
