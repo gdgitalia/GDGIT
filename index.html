@@ -1,14 +1,338 @@
----
-layout: default
-permalink: /
----
-
- {% include hero.html %}
-
- {% include about.html %}
-
- {% include statistic.html %}
- 
- {% include twitter-feed.html %}
-
- {% include subscribe.html %}
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+    <meta name="description" content="Google Developer Group Italia">
+    <link rel="canonical" href="https://gdgitalia.github.io"> <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gdgItalia">
+    <meta name="twitter:title" content="GDG Italia">
+    <meta name="twitter:description" content="Google Developer Group Italia">
+    <meta name="twitter:image:src" content="https://gdgitalia.github.io/GDGIT/img/seo/sharing-twitter.png">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="GDG Italia"/>
+    <meta property="og:site_name" content="GDG Italia"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://gdgitalia.github.io"/>
+    <meta property="og:image" content="https://gdgitalia.github.io/GDGIT/img/seo/sharing-facebook.png"/>
+    <meta property="og:description" content="Google Developer Group Italia"/>
+    <title>GDG Italia</title>
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-160x160.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#2b5797">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]--> </head>
+<body>
+<div id="st-container" class="st-container disable-scrolling">
+    <div class="st-pusher">
+        <div class="st-content"> <!-- Begin Hero Section -->
+            <section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('img/sections-background/nice.jpg');">
+                <header id="top-header" class="top-header">
+                    <div class="overlay white-solid"></div>
+                    <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
+                        <use xlink:href="img/sprites/sprites.svg#icon-menu"></use>
+                    </svg>
+                    <a href="index.html" id="logo-header" class="logo-header">
+                        <div class="logo logo-light"></div>
+                    </a>
+                    <nav class="st-menu st-effect" id="menu">
+                        <div class="logo-navbar logo logo-dark visible-xs"></div>
+                        <ul>
+                            <li><a class="current" href="index.html">Home</a></li>
+                            <li><a class="" href="GDGs.html">GDG's</a></li>
+                        </ul>
+                        <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
+                            <li><a href=" https://developers.google.com/groups/directory/Italy " target="_blank">Trova
+                                il tuo GDG</a></li>
+                        </ul>
+                        <a href=" https://developers.google.com/groups/directory/Italy "
+                           class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm"
+                           target="_blank"> Trova il tuo GDG </a></nav>
+                </header>
+                <div class="content-wrapper">
+                    <div class="jumbotron">
+                        <div class="animated hiding" data-animation="fadeInDown" data-delay="500"><h1>Google Developer
+                            Group</h1> <h4> GDG <span id="typeout-text" class="hidden-xs"></span> <span
+                                class="typeout-fallback">Italia</span></h4> </br> <a
+                                href=" https://developers.google.com/groups/directory/Italy "
+                                class="btn btn-primary waves-effect waves-button waves-light waves-float"
+                                target="_blank"> Trova il tuo GDG </a></div>
+                    </div>
+                    <a href="#about" class="explore">
+                        <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+                            <use xlink:href="img/sprites/sprites.svg#icon-arrow-down"></use>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+        </div>
+         <!-- End Hero Section --> <!-- About Section -->
+        <section id="about" class="about">
+            <div class="content-wrapper">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="container-fluid">
+                        <p id="aboutDescription">
+                            I <b>Gooogle Developer Groups</b> sono gruppi indipendenti sparsi in tutto il mondo
+                            composti da persone interessate di tecnologia che amano condividere le loro esperienze
+                            e conoscenze.
+                        </p>
+                        <p id="aboutDescription">
+                            In <b>italia</b> sono presenti <b>24 GDG</b>, se vuoi farne parte
+                            cerca il <b>GDG</b> più vicino a te!
+                        </p>
+                    </div>
+                    <div class="row about-details">
+                        <div class="col-md-3 col-xs-6">
+                            <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                                <h5>Eventi Google</h5>
+                                <img class="img-circle" src="img/about-section/conference.jpg" height="128" width="128" alt="Eventi Google">
+                                <p>
+                                    Gli eventi Google più importanti organizzati per te dai GDG! Tanti speakers e tanto
+                                    divertimento!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+                                <h5>Workshops</h5>
+                                <img class="img-circle" src="img/about-section/workshop.jpg" height="128" width="128" alt="Workshops">
+                                <p>
+                                    Il modo migliore per fare esperienza si fa programmando, meglio se tutti assieme!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-xs"></div>
+                        <div class="col-md-3 col-xs-6">
+                            <div class="animated hiding" data-animation="fadeInDown" data-delay="1000">
+                                <h5>Seminari</h5>
+                                <img class="img-circle" src="img/about-section/talks.JPG" height="128" width="128" alt="Seminari">
+                                <p>
+                                    Tanti seminari sulle tue tecnologie preferite!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <div class="animated hiding" data-animation="fadeInDown" data-delay="1500">
+                                <h5>Community</h5>
+                                <img class="img-circle" src="img/about-section/community.JPG" height="128" width="128" alt="Community">
+                                <p>
+                                    Trova il GDG più vicino a te!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-xs"></div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- End About Section --> <!-- Begin Statistic Section -->
+        <section id="statistic" class="statistic image-section parallax"
+                 style="background-image: url(img/sections-background/statistic.jpg);">
+            <div class="overlay solid-overlay"></div>
+            <div class="content-wrapper">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="counter animated hiding" data-animation="fadeInDown" data-delay="0">
+                            <div class="stat"><span class="timer" data-from="0" data-to="5000">5000</span>+</div>
+                            <div class="stat-info">partecipanti</div>
+                            <hr>
+                            <p class="small">negli ultimi 6 mesi</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="counter animated hiding" data-animation="fadeInDown" data-delay="500">
+                            <div class="stat"><span class="timer" data-from="0" data-to="50">50</span>+</div>
+                            <div class="stat-info">Eventi</div>
+                            <hr>
+                            <p class="small">negli ultimi 6 mesi</p>
+                        </div>
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="counter animated hiding" data-animation="fadeInDown" data-delay="1000">
+                            <div class="stat"><span class="timer" data-from="0" data-to="24">24</span></div>
+                            <div class="stat-info">GDG</div>
+                            <hr>
+                            <p class="small">in tutta italia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- End Statistic Section --> <!-- Begin Twitter Feed Section -->
+        <section id="twitter-feed" class="twitter-feed image-section parallax">
+            <div class="overlay solid-overlay"></div>
+            <div class="content-wrapper">
+                <div class="col-md-8 col-md-offset-2">
+                    <svg class="icon" viewBox="0 0 30 32">
+                        <use xlink:href="img/sprites/sprites.svg#icon-twitter"></use>
+                    </svg>
+                    <h3>Hashtag us! <a href="https://twitter.com/search?q=%23GDGItalia" target="_blank">#GDGItalia</a>
+                    </h3>
+                    <div id="tweets" class="tweets"></div>
+                </div>
+            </div>
+        </section> <!-- End Twitter Feed Section --> <!-- Begin Subscribe Section -->
+        <section id="subscribe" class="subscribe image-section parallax" style="background-image: url(img/sections-background/subscribe.jpg);">
+            <div class="overlay solid-overlay"></div>
+            <div class="content-wrapper">
+                <div class="col-lg-8 col-lg-offset-2 animated hiding" data-animation="fadeInUp" data-delay="0"><h3>
+                    Iscriviti per ricevere i nostri aggiornamenti</h3>
+                    <div id="mc_embed_signup" class="col-lg-8 col-sm-8 col-lg-offset-2 col-sm-offset-2">
+                        <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="mc-field-group col-lg-9 col-sm-9 col-xs-12">
+                                <i class="email bordered required waves-effect waves-light waves-input-wrapper">
+                                    <input type="email" value="" name="EMAIL" class="waves-button-input" id="mce-EMAIL" placeholder="your@email.com" autocomplete="off">
+                                </i>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;">
+                                <input type="text" name="b_9fc8aa205b0521b5f05fc8e1e_ae0fb459fc" tabindex="-1" value="">
+                            </div>
+                            <div class="mc-submit-group clear col-lg-3 col-sm-3 col-xs-12">
+                                <i class="button bordered required waves-effect waves-light waves-input-wrapper">
+                                <input type="submit" class="waves-button-input" value="Submit" name="subscribe" id="mc-embedded-subscribe">
+                                </i>
+                            </div>
+                        </form>
+                        <span class="subscribe-info">
+                            Registra la tua mail per ricevere informazioni da GDG Italia!
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- End Subscribe Section --> <!-- Begin Footer -->
+        <footer id="footer" class="footer">
+            <div class="row">
+                <div class="pull-left col-md-6 col-xs-6">
+                    <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300" data-href="https://gdgitalia.github.io"></div>
+                </div>
+                <div class="logo logo-footer logo-gray pull-right"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-6">
+                    <h5>Links</h5>
+                    <ul>
+                        <li>
+                            <a href="http://developersitalia.blogspot.it/" target="_blank">
+                                Google Developers Italia
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" https://developers.google.com " target="_blank">
+                            Google Developers
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" https://plus.google.com/109399456192014388090 " target="_blank">
+                                Google +
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <ul class="social-links">
+                        <li>
+                            <a href="feed.xml" target="_blank">
+                                <svg class="icon icon-rss" viewBox="0 0 30 32">
+                                    <use xlink:href="img/sprites/sprites.svg#icon-rss"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row"> <!-- Please don't delete this line-->
+                <div class="col-md-6">
+                    <p class="copyright">
+                        &copy; 2014 Based on
+                        <a href="https://github.com/gdg-x/zeppelin" target="_blank">Project Zeppelin</a>.
+                        Designed andncreated by
+                        <a href="https://plus.google.com/+OlehZasadnyy/about" target="_blank">Oleh Zasadnyy</a>
+                        &middot;
+                        <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
+                    </p>
+                </div>
+            </div>
+        </footer> <!-- End Footer -->
+    </div>
+</div>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/default.js"></script>
+<script> Waves.displayEffect();
+var twitterFeedUrl = '';
+$(document).ready(function () {
+    $(function () {
+        if ($(window).width() > 767) {
+            $("#typeout-text").typed({
+                strings: ["Torino", "Palermo", "Campania", "Catania", "Gela", "Bari", "ReggioEmilia", "Cosenza", "Milan", "Nebrodi", "Pisa", "Firenze", "ReggioCalabia", "Roma Lab", "Trento", "Ancona", "Brescia", "Genova", "Sardegna", "Venezia", "Bologna", "Camerino", "Udine", "Parma", "Perugia", "Pescara", "Elimi"],
+                typeSpeed: 150,
+                backDelay: 900,
+                loop: true
+            });
+        }
+    });
+    var rockstarSpeakers = [{
+        name: "Dawid Ostrowski",
+        company: "Google Poland",
+        image: "img/people/DawidOstrowski.jpg"
+    }, {
+        name: "Dmytro Danylyk",
+        company: "Lemberg Solutions Limited",
+        image: "img/people/DmytroDanylyk.jpg"
+    }, {
+        name: "Mateusz Herych",
+        company: "Base CRM, GDG Krakow",
+        image: "img/people/MateuszHerych.jpg"
+    }, {
+        name: "Roman Mazur",
+        company: "Stanfy, GDG Kyiv",
+        image: "img/people/RomanMazur.jpg"
+    }, {name: "Valentyn Shybanov", company: "Twinfield, GDG Kyiv", image: "img/people/ValentynShybanov.jpg"}];
+    rockstarSpeakers.sort(function () {
+        return 0.5 - Math.random()
+    });
+    if (rockstarSpeakers.length > 0) {
+        var animationDelay = 1500, count = Math.min(4, rockstarSpeakers.length), colWidth = 12 / count;
+        for (i = 0; i < count; i++) {
+            var clearfix = '<div class="clearfix visible-xs"></div>';
+            if ((i) % 2 != 0) {
+                clearfix = ""
+            }
+            $('#rockstar-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+            animationDelay -= 500;
+        }
+    }
+}); </script>
+<script src="js/scripts.min.js"></script>
+<script type="application/ld+json">
+     [{ "@context" : "http://schema.org", "@type" : "Event", "name" : "GDG Italia", "description": "Google Developer Group Italia", "image" : "https://gdgitalia.github.io/GDGIT/img/seo/sharing-google-plus.png", "url" : "https://gdgitalia.github.io", "startDate" : "", "doorTime" : "", "endDate" : "", "location" : { "@type" : "Place", "name" : "", "sameAs" : "", "address" : { "@type" : "PostalAddress", "streetAddress" : "", "addressLocality" : "", "addressRegion" : "", "postalCode" : "", "addressCountry" : "" }, "geo" : { "@type" : "GeoCoordinates", "latitude" : "", "longitude" : "" } }, // Not supported yet // "organizer" : { // "@type" : "Organization", // "name" : "GDG Italy", // "alternateName" : "Google Developer Group Italia", // "description" : "I Google Developer Groups (GDG) sono gruppi di persone interessate alla tecnologia Google, possono assumere tante forme -- da gruppi di poche persone che si incontrano per parlare di tecnologia a grandi seminari, codelabs o hackatons", // "logo" : "https://gdgitalia.github.io/GDGIT/img/seo/GDGitaly-logo.png", // "email" : "none@none.it", // "sameAs" : "http://gdgitalia.org/" // }, "subEvent" : { "@type" : "Event", "name" : "", "description": "", "image" : "https://gdgitalia.github.io/GDGIT/img/seo/sharing-google-plus.png", "url" : "https://gdgitalia.github.io/GDGIT/hackathon/", "startDate" : "", "doorTime" : "", "endDate" : "", "location" : { "@type" : "Place", "name" : "", "sameAs" : "", "address" : { "@type" : "PostalAddress", "streetAddress" : "", "addressLocality" : "", "addressRegion" : "", "postalCode" : "", "addressCountry" : "" }, "geo" : { "@type" : "GeoCoordinates", "latitude" : "", "longitude" : "" } } }, "offers" : [ ], "performer" : [ { "@type" : "Person", "name" : "Dawid Ostrowski", "image" : "https://gdgitalia.github.io/GDGIT/img/people/DawidOstrowski.jpg", "jobTitle" : "Developer Relations Program Manager", "worksFor" : { "@type" : "Organization", "name" : "Google Poland" }, "sameAs" : "https://plus.google.com/+DawidOstrowski/" }, { "@type" : "Person", "name" : "Dmytro Danylyk", "image" : "https://gdgitalia.github.io/GDGIT/img/people/DmytroDanylyk.jpg", "jobTitle" : "Android Developer", "worksFor" : { "@type" : "Organization", "name" : "Lemberg Solutions Limited" }, "sameAs" : "https://plus.google.com/+DmytroDanylyk" }, { "@type" : "Person", "name" : "Mateusz Herych", "image" : "https://gdgitalia.github.io/GDGIT/img/people/MateuszHerych.jpg", "jobTitle" : "Software Engineer", "worksFor" : { "@type" : "Organization", "name" : "Base CRM, GDG Krakow" }, "sameAs" : "https://plus.google.com/+MateuszHerych" }, { "@type" : "Person", "name" : "Roman Mazur", "image" : "https://gdgitalia.github.io/GDGIT/img/people/RomanMazur.jpg", "jobTitle" : "Head of Android/Java Unit", "worksFor" : { "@type" : "Organization", "name" : "Stanfy, GDG Kyiv" }, "sameAs" : "https://plus.google.com/+RomanMazur/" }, { "@type" : "Person", "name" : "Valentyn Shybanov", "image" : "https://gdgitalia.github.io/GDGIT/img/people/ValentynShybanov.jpg", "jobTitle" : "Software engineer/country manager", "worksFor" : { "@type" : "Organization", "name" : "Twinfield, GDG Kyiv" }, "sameAs" : "https://google.com/+ValentynShybanov" } ], "eventStatus" : "EventScheduled", "typicalAgeRange" : "16+" }]
+</script>
+</body>
+</html>
